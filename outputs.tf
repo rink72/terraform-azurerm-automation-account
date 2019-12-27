@@ -9,7 +9,7 @@ output "endpoint" {
 }
 
 output "primary_key" {
-    description = "The automation account secondary key"
+    description = "The automation account primary key"
     value = azurerm_automation_account.auto_account.primary_key
     sensitive = true
 }
