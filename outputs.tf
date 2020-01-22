@@ -3,7 +3,7 @@ output "id" {
   value       = azurerm_automation_account.auto_account.id
 }
 
-output "endpint" {
+output "endpoint" {
   description = "The automation account endpoint url"
   value       = azurerm_automation_account.auto_account.dsc_server_endpoint
 }
